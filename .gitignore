@@ -1,0 +1,19 @@
+# Node
+node_modules/
+*.log
+
+# Java
+/target/
+*.class
+*.jar
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Genéricos
+.DS_Store
+.env
+.idea/
+.vscode/
