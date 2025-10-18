@@ -1,7 +1,9 @@
 ### Descrição
+
 Resuma as mudanças e o contexto.
 
 ### Tipo de mudança
+
 - [ ] feat
 - [ ] fix
 - [ ] docs
@@ -10,6 +12,7 @@ Resuma as mudanças e o contexto.
 - [ ] chore
 
 ### Checklist
+
 - [ ] Branch nomeada corretamente
 - [ ] Commits seguem o padrão (Conventional Commits)
 - [ ] Documentação atualizada (se necessário)

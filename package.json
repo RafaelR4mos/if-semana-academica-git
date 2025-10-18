@@ -1,0 +1,26 @@
+{
+  "name": "semana-academica-git",
+  "version": "1.0.0",
+  "description": "Repositório de prática para comandos básicos, branches, PRs, conflitos e merges.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:prettier:check": "prettier --check .",
+    "lint:prettier:fix": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelR4mos/if-semana-academica-git.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RafaelR4mos/if-semana-academica-git/issues"
+  },
+  "homepage": "https://github.com/RafaelR4mos/if-semana-academica-git#readme",
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
