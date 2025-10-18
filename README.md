@@ -1,6 +1,6 @@
 # Semana Acadêmica – Git (Prática)
 
-Repositório de prática para comandos básicos, branches, PRs, conflitos e merges.
+Repositório de prática para comandos básicos, branches, PRs, conflitos, merges e pipelines com github actions.
 
 ## Como começar
 
