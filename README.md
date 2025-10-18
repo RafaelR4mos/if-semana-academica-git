@@ -10,6 +10,8 @@ cd semana-academica-git
 git checkout -b feature/<nome-feat>
 ```
 
+> OBS: Se quiser testar uma branch com a pipeline de linting e pre-commit, deve executar o comando `npm install` para instalar as dependências do Node.
+
 ## Exercícios
 
 ### COMMIT BÁSICO e PR
@@ -61,3 +63,10 @@ git push origin <nome-da-sua-branch>
 
 - Evite commits diretamente na `main`: crie uma branch e abra PR.
 - Use o template de PR para checklist e descrição.
+- Caso tenha cometido algum erro de padrão no commit você pode usar o comando abaixo para desfazer:
+
+```bash
+git reset --soft HEAD~1
+```
+
+O commit é removido do histórico local, as alterações voltam para a staging area (você pode fazer um novo commit logo em seguida).cIdeal quando ainda não fez push.

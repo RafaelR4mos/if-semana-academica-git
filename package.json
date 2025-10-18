@@ -4,9 +4,10 @@
   "description": "Repositório de prática para comandos básicos, branches, PRs, conflitos e merges.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "activate:hooks": "bash setup.sh",
     "lint:prettier:check": "prettier --check .",
-    "lint:prettier:fix": "prettier --write ."
+    "lint:prettier:fix": "prettier --write .",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/RafaelR4mos/if-semana-academica-git#readme",
   "devDependencies": {
+    "husky": "^9.1.7",
     "prettier": "^3.6.2"
   }
 }

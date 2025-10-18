@@ -1,0 +1,26 @@
+#!/bin/bash
+# ─────────────────────────────────────────────
+# HOOK: commit-msg
+# Autor: Rafael Ramos
+# Descrição: valida o padrão Conventional Commits
+# ─────────────────────────────────────────────
+
+commit_msg_file=$1
+commit_msg=$(cat "$commit_msg_file")
+
+# Expressão regular para o padrão Conventional Commits:
+# tipo: descrição
+pattern="^(feat|fix|docs|style|refactor|test|chore): .+"
+
+if [[ ! $commit_msg =~ $pattern ]]; then
+  echo "❌ Mensagem de commit inválida!"
+  echo "   Siga o padrão: tipo(escopo): descrição"
+  echo "   Exemplos válidos:"
+  echo "     feat: adiciona função soma"
+  echo "     fix: corrige erro de autenticação"
+  echo "     docs: adiciona instruções no README"
+  exit 1
+fi
+
+echo "✅ Mensagem de commit válida!"
+exit 0
